@@ -1,0 +1,18 @@
+:root {
+    --main-footer-background-color: rgb(0, 0, 0);
+    --main-footer-color: rgb(255, 255, 255);
+}
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+footer {
+    background: var(--main-footer-background-color);
+    color: var(--main-footer-color);
+    width: 100vw;
+    height: 50px;
+    
+
+}

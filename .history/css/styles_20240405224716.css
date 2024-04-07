@@ -1,0 +1,113 @@
+:root {
+    --main-footer-background-color: rgb(0, 0, 0);
+    --main-footer-color: rgb(255, 255, 255);
+    --main-header-background-color: rgb(0, 0, 0);
+    --main-header-color: rgb(255, 255, 255);
+    --menu-font-size:1.25rem;
+    --main-header-link-onhover-color: rgb(109, 108, 109);
+
+    
+}
+
+a {
+    color: inherit;
+    border: 0px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 120px;
+}
+
+header {
+    background: var(--main-header-background-color);
+    color: var(--main-header-color);
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+footer {
+    background: var(--main-footer-background-color);
+    color: var(--main-footer-color);
+    width: 100vw;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.header_menu{
+    width: 500px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    font-size: var( --menu-font-size);
+} 
+.header_menu li {
+    list-style: none;
+}
+
+.header_menu a{
+    color:var(--main-header-color)
+}
+.header_menu a:hover{
+    color:var(--main-header-link-onhover-color);
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 1440px;
+}
+
+ .main_container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_container_2{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer_content {
+    width: 100%;
+    text-align: center;
+}
