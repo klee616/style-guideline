@@ -1,17 +1,17 @@
 :root {
-    --main-footer-background-color: rgb(0, 0, 0);
-    --main-footer-color: rgb(255, 255, 255);
-    --main-header-background-color: rgb(0, 0, 0);
+
+    --web-color-1: #B9E4C9;
+    --web-color-2: #13644D;
+    --web-color-3: #FFC53A;
+    --web-color-4: #E46D05;
+
+
+    --main-footer-background-color: var(--web-color-3);
+    --main-footer-color: rgb(0, 0, 0);
+    --main-header-background-color: var(--web-color-4);
     --main-header-color: rgb(255, 255, 255);
     --menu-font-size: 1.25rem;
     --main-header-link-onhover-color: rgb(109, 108, 109);
-
-    --web-color-1: #123123;
-    --web-color-2: #345674;
-    --web-color-3: #987653;
-    --web-color-4: #234923;
-    --web-color-5: #A3423A;
-    --web-color-6: #F5de12;
 }
 
 a {
@@ -27,7 +27,7 @@ body {
     font-weight: 100;
     font-style: normal;
     margin-top: 120px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 header {
@@ -90,7 +90,7 @@ footer {
 section {
     margin: 0 auto;
     max-width: 1440px;
-    width: 1440px;
+    width: 100%;
 }
 
 .main-container {
@@ -123,7 +123,7 @@ section {
 }
 
 .menu-button {
-    flex: 1 1 33%;
+    flex: 1 1 25%;
     text-align: center;
     padding: 0px;
     cursor: pointer;
@@ -131,12 +131,15 @@ section {
 }
 
 .menu-button a{
-    width: 300px;
-    height: 300px;
     display: block;
     text-align: center;
     padding: 15px;
     margin: auto;
+}
+
+
+.menu-button a:hover{
+    background-color: var(--web-color-1);
 }
 
 .footer-content {
@@ -283,4 +286,16 @@ section {
     font-size: 1.5rem;
     font-weight: 600;
     font-style: normal;
+}
+
+.contrast-image{
+    width: 250px;
+}
+
+.typography-demo p{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.icon{
+    width: 100px;
 }
